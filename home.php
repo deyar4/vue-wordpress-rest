@@ -5,7 +5,7 @@ $per_page = RADL::get( 'state.site' )['posts_per_page'];
 $posts = RADL::get( 'state.posts', array( 'page' => 1, 'per_page' => $per_page ) ); ?>
 
 <main>
-
+<h1> Hello </h1>
     <section>
 
         <?php

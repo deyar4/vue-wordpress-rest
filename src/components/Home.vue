@@ -1,17 +1,7 @@
 <template>
   <main>
-    <section v-if="posts.length">
-      <post-item
-        v-for="post in posts"
-        :key="post.id"
-        :post="post"
-      />
-      <pagination
-        v-if="totalPages > 1"
-        :total="totalPages"
-        :current="page"
-      />
-    </section>
+  <h1> hello </h1>
+
   </main>
 </template>
 

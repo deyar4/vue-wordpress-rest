@@ -1,4 +1,5 @@
 <template>
+
   <div 
     id="vue-wordpress-app"
     class="container"
@@ -14,6 +15,7 @@
         :src="logo.source_url"
         :alt="logo.alt_text"
       />
+      <h1> hello </h1>
       <span>{{ site.name }}</span>
     </div>
     <nav-menu
